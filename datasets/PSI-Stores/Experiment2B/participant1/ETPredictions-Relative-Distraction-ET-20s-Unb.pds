@@ -1,0 +1,38 @@
+{
+  "Name": "Untitled Dataset",
+  "Sessions": [
+    {
+      "Name": "VideoRawData",
+      "Partitions": [
+        {
+          "$type": "Microsoft.Psi.Data.Partition`1[[Microsoft.Psi.Data.IStreamReader, Microsoft.Psi]], Microsoft.Psi.Data",
+          "Name": "VideoRawData",
+          "StoreName": "VideoRawData",
+          "StorePath": "VideoRawData.0000",
+          "StreamReaderTypeName": "Microsoft.Psi.Data.PsiStoreStreamReader, Microsoft.Psi, Version=0.15.49.1, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "$type": "Microsoft.Psi.Data.Partition`1[[Microsoft.Psi.Data.IStreamReader, Microsoft.Psi]], Microsoft.Psi.Data",
+          "Name": "DetectedFacesData",
+          "StoreName": "DetectedFacesData",
+          "StorePath": "DetectedFacesData.0000",
+          "StreamReaderTypeName": "Microsoft.Psi.Data.PsiStoreStreamReader, Microsoft.Psi, Version=0.15.49.1, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "$type": "Microsoft.Psi.Data.Partition`1[[Microsoft.Psi.Data.IStreamReader, Microsoft.Psi]], Microsoft.Psi.Data",
+          "Name": "Distraction",
+          "StoreName": "Distraction",
+          "StorePath": "Distraction.0000",
+          "StreamReaderTypeName": "Microsoft.Psi.Data.PsiStoreStreamReader, Microsoft.Psi, Version=0.15.49.1, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "$type": "Microsoft.Psi.Data.Partition`1[[Microsoft.Psi.Data.IStreamReader, Microsoft.Psi]], Microsoft.Psi.Data",
+          "Name": "EmotionsTempPredictions",
+          "StoreName": "EmotionsTempPredictions",
+          "StorePath": "EmotionsTempPredictions-Relative-Distraction-ET-20s-Unb.0000",
+          "StreamReaderTypeName": "Microsoft.Psi.Data.PsiStoreStreamReader, Microsoft.Psi, Version=0.15.49.1, Culture=neutral, PublicKeyToken=null"
+        }
+      ]
+    }
+  ]
+}

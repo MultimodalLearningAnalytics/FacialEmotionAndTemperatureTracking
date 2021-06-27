@@ -1,0 +1,77 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixLatex -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 0 -mean-width 0 -stddev-width 0 -sig-width 0 -count-width 0 -print-row-names -enum-col-names"
+Analysing:  F_measure
+Datasets:   27
+Resultsets: 18
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       18/06/2021, 00:03
+
+
+\begin{table}[thb]
+\caption{\label{labelname}Table Caption}
+\footnotesize
+{\centering \begin{tabular}{lrr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}cr@{\hspace{0.1cm}}c}
+\\
+\hline
+Dataset & (1)& (2) & & (3) & & (4) & & (5) & & (6) & & (7) & & (8) & & (9) & & (10) & & (11) & & (12) & & (13) & & (14) & & (15) & & (16) & & (17) & & (18) & \\
+\hline
+CombinedFeatures-EmotionsAndTemp-10s & 0.96 & 0.96 &          & 0.96 &          & 0.96 &          & 0.96 &          & 0.96 &          & 0.96 &          & 0.83 & $\bullet$ & 0.92 & $\bullet$ & 0.92 & $\bullet$ & 0.91 & $\bullet$ & 0.91 & $\bullet$ & 0.91 & $\bullet$ & 0.89 & $\bullet$ & 0.87 & $\bullet$ & 0.90 & $\bullet$ & 0.90 & $\bullet$ & 0.91 & $\bullet$\\
+CombinedFeatures-EmotionsAndTemp-20s & 0.92 & 0.92 &          & 0.91 &          & 0.91 &          & 0.91 &          & 0.91 &          & 0.91 &          & 0.76 & $\bullet$ & 0.85 &           & 0.85 &           & 0.85 & $\bullet$ & 0.85 & $\bullet$ & 0.85 & $\bullet$ & 0.79 & $\bullet$ & 0.79 & $\bullet$ & 0.82 & $\bullet$ & 0.83 &           & 0.84 &          \\
+CombinedFeatures-EmotionsAndTemp-30s & 0.82 & 0.84 &          & 0.83 &          & 0.82 &          & 0.82 &          & 0.83 &          & 0.83 &          & 0.71 & $\bullet$ & 0.77 &           & 0.77 &           & 0.77 &           & 0.77 &           & 0.77 &           & 0.71 &           & 0.69 & $\bullet$ & 0.70 & $\bullet$ & 0.71 & $\bullet$ & 0.72 &          \\
+CombinedFeatures-EmotionsOnly-10s & 0.90 & 0.90 &          & 0.90 &          & 0.90 &          & 0.90 &          & 0.90 &          & 0.90 &          & 0.83 & $\bullet$ & 0.86 &           & 0.86 &           & 0.86 &           & 0.86 &           & 0.86 &           & 0.83 & $\bullet$ & 0.84 & $\bullet$ & 0.84 & $\bullet$ & 0.86 &           & 0.86 &          \\
+CombinedFeatures-EmotionsOnly-20s & 0.84 & 0.84 &          & 0.84 &          & 0.84 &          & 0.83 &          & 0.84 &          & 0.84 &          & 0.77 &           & 0.79 &           & 0.79 &           & 0.80 &           & 0.80 &           & 0.80 &           & 0.74 & $\bullet$ & 0.71 & $\bullet$ & 0.76 &           & 0.78 &           & 0.78 &          \\
+CombinedFeatures-EmotionsOnly-30s & 0.76 & 0.75 &          & 0.76 &          & 0.76 &          & 0.75 &          & 0.75 &          & 0.76 &          & 0.70 &           & 0.69 &           & 0.69 &           & 0.67 &           & 0.67 &           & 0.67 &           & 0.65 & $\bullet$ & 0.64 &           & 0.65 &           & 0.67 &           & 0.67 &          \\
+CombinedFeatures-TempOnly-10s & 0.74 & 0.74 &          & 0.73 &          & 0.73 &          & 0.74 &          & 0.74 &          & 0.74 &          & 0.52 & $\bullet$ & 0.68 &           & 0.68 &           & 0.69 &           & 0.69 &           & 0.69 &           & 0.72 &           & 0.72 &           & 0.73 &           & 0.73 &           & 0.73 &          \\
+CombinedFeatures-TempOnly-20s & 0.64 & 0.64 &          & 0.64 &          & 0.64 &          & 0.64 &          & 0.65 &          & 0.64 &          & 0.50 & $\bullet$ & 0.56 &           & 0.56 &           & 0.56 &           & 0.57 &           & 0.57 &           & 0.60 &           & 0.60 &           & 0.59 &           & 0.59 &           & 0.59 &          \\
+CombinedFeatures-TempOnly-30s & 0.56 & 0.56 &          & 0.57 &          & 0.57 &          & 0.56 &          & 0.56 &          & 0.57 &          & 0.50 &           & 0.49 &           & 0.48 &           & 0.49 &           & 0.48 &           & 0.48 &           & 0.52 &           & 0.52 &           & 0.52 &           & 0.52 &           & 0.52 &          \\
+DistractionFeatures-EmotionsAndTemp-10s & 0.95 & 0.96 &          & 0.96 &          & 0.95 &          & 0.96 &          & 0.96 &          & 0.96 &          & 0.92 & $\bullet$ & 0.90 & $\bullet$ & 0.90 & $\bullet$ & 0.91 & $\bullet$ & 0.91 & $\bullet$ & 0.91 & $\bullet$ & 0.91 & $\bullet$ & 0.89 & $\bullet$ & 0.91 & $\bullet$ & 0.91 & $\bullet$ & 0.93 &          \\
+DistractionFeatures-EmotionsAndTemp-20s & 0.94 & 0.95 &          & 0.95 &          & 0.94 &          & 0.95 &          & 0.95 &          & 0.95 &          & 0.85 & $\bullet$ & 0.90 &           & 0.89 &           & 0.89 & $\bullet$ & 0.89 & $\bullet$ & 0.89 & $\bullet$ & 0.87 & $\bullet$ & 0.86 & $\bullet$ & 0.88 & $\bullet$ & 0.90 &           & 0.91 &          \\
+DistractionFeatures-EmotionsAndTemp-30s & 0.90 & 0.91 &          & 0.90 &          & 0.90 &          & 0.91 &          & 0.91 &          & 0.91 &          & 0.83 & $\bullet$ & 0.86 &           & 0.86 &           & 0.86 &           & 0.86 &           & 0.86 &           & 0.80 & $\bullet$ & 0.80 & $\bullet$ & 0.83 &           & 0.82 &           & 0.83 &          \\
+DistractionFeatures-EmotionsOnly-10s & 0.95 & 0.95 &          & 0.95 &          & 0.95 &          & 0.95 &          & 0.95 &          & 0.95 &          & 0.92 &           & 0.91 & $\bullet$ & 0.91 &           & 0.91 &           & 0.91 &           & 0.91 &           & 0.90 & $\bullet$ & 0.88 & $\bullet$ & 0.91 & $\bullet$ & 0.91 & $\bullet$ & 0.91 &          \\
+DistractionFeatures-EmotionsOnly-20s & 0.92 & 0.92 &          & 0.93 &          & 0.93 &          & 0.92 &          & 0.92 &          & 0.92 &          & 0.84 & $\bullet$ & 0.90 &           & 0.90 &           & 0.90 &           & 0.90 &           & 0.90 &           & 0.85 & $\bullet$ & 0.84 & $\bullet$ & 0.86 &           & 0.88 &           & 0.89 &          \\
+DistractionFeatures-EmotionsOnly-30s & 0.89 & 0.90 &          & 0.90 &          & 0.89 &          & 0.89 &          & 0.90 &          & 0.90 &          & 0.83 & $\bullet$ & 0.83 & $\bullet$ & 0.82 & $\bullet$ & 0.82 & $\bullet$ & 0.82 & $\bullet$ & 0.82 & $\bullet$ & 0.79 & $\bullet$ & 0.79 &           & 0.79 &           & 0.84 &           & 0.85 &          \\
+DistractionFeatures-TempOnly-10s & 0.81 & 0.81 &          & 0.80 &          & 0.80 &          & 0.81 &          & 0.81 &          & 0.81 &          & 0.60 & $\bullet$ & 0.75 &           & 0.75 &           & 0.75 &           & 0.75 &           & 0.75 &           & 0.78 &           & 0.78 &           & 0.79 &           & 0.79 &           & 0.79 &          \\
+DistractionFeatures-TempOnly-20s & 0.78 & 0.78 &          & 0.77 &          & 0.77 &          & 0.78 &          & 0.79 &          & 0.78 &          & 0.55 & $\bullet$ & 0.64 & $\bullet$ & 0.65 & $\bullet$ & 0.64 & $\bullet$ & 0.65 & $\bullet$ & 0.65 & $\bullet$ & 0.71 &           & 0.71 &           & 0.70 & $\bullet$ & 0.70 & $\bullet$ & 0.70 & $\bullet$\\
+DistractionFeatures-TempOnly-30s & 0.73 & 0.73 &          & 0.73 &          & 0.73 &          & 0.73 &          & 0.73 &          & 0.72 &          & 0.54 & $\bullet$ & 0.59 & $\bullet$ & 0.61 &           & 0.61 &           & 0.61 &           & 0.61 &           & 0.66 &           & 0.66 &           & 0.67 &           & 0.67 &           & 0.67 &          \\
+InattentiveFeatures-EmotionsAndTemp-10s & 0.95 & 0.95 &          & 0.94 &          & 0.95 &          & 0.94 &          & 0.95 &          & 0.95 &          & 0.66 & $\bullet$ & 0.92 &           & 0.91 &           & 0.92 &           & 0.92 &           & 0.92 &           & 0.88 & $\bullet$ & 0.87 & $\bullet$ & 0.87 & $\bullet$ & 0.89 & $\bullet$ & 0.89 & $\bullet$\\
+InattentiveFeatures-EmotionsAndTemp-20s & 0.94 & 0.94 &          & 0.95 &          & 0.95 &          & 0.94 &          & 0.94 &          & 0.94 &          & 0.79 & $\bullet$ & 0.86 &           & 0.87 &           & 0.87 &           & 0.87 &           & 0.87 &           & 0.83 & $\bullet$ & 0.80 & $\bullet$ & 0.85 & $\bullet$ & 0.85 & $\bullet$ & 0.85 & $\bullet$\\
+InattentiveFeatures-EmotionsAndTemp-30s & 0.87 & 0.88 &          & 0.86 &          & 0.85 &          & 0.86 &          & 0.88 &          & 0.87 &          & 0.74 & $\bullet$ & 0.79 &           & 0.79 &           & 0.79 &           & 0.79 &           & 0.79 &           & 0.77 &           & 0.76 &           & 0.75 &           & 0.75 &           & 0.73 & $\bullet$\\
+InattentiveFeatures-EmotionsOnly-10s & 0.88 & 0.88 &          & 0.88 &          & 0.88 &          & 0.88 &          & 0.88 &          & 0.88 &          & 0.66 & $\bullet$ & 0.84 &           & 0.84 &           & 0.85 &           & 0.85 &           & 0.85 &           & 0.83 & $\bullet$ & 0.81 & $\bullet$ & 0.83 & $\bullet$ & 0.85 &           & 0.84 &          \\
+InattentiveFeatures-EmotionsOnly-20s & 0.85 & 0.85 &          & 0.85 &          & 0.85 &          & 0.85 &          & 0.85 &          & 0.86 &          & 0.79 &           & 0.79 &           & 0.78 &           & 0.79 &           & 0.79 &           & 0.79 &           & 0.77 &           & 0.77 &           & 0.80 &           & 0.81 &           & 0.80 &          \\
+InattentiveFeatures-EmotionsOnly-30s & 0.80 & 0.80 &          & 0.81 &          & 0.82 &          & 0.80 &          & 0.81 &          & 0.80 &          & 0.71 &           & 0.75 &           & 0.74 &           & 0.74 &           & 0.74 &           & 0.74 &           & 0.68 & $\bullet$ & 0.70 &           & 0.71 &           & 0.75 &           & 0.73 &          \\
+InattentiveFeatures-TempOnly-10s & 0.73 & 0.73 &          & 0.73 &          & 0.73 &          & 0.73 &          & 0.73 &          & 0.73 &          & 0.49 & $\bullet$ & 0.56 & $\bullet$ & 0.56 & $\bullet$ & 0.55 & $\bullet$ & 0.55 & $\bullet$ & 0.55 & $\bullet$ & 0.73 &           & 0.73 &           & 0.71 &           & 0.71 &           & 0.71 &          \\
+InattentiveFeatures-TempOnly-20s & 0.68 & 0.68 &          & 0.68 &          & 0.68 &          & 0.68 &          & 0.67 &          & 0.67 &          & 0.49 & $\bullet$ & 0.48 & $\bullet$ & 0.49 & $\bullet$ & 0.49 & $\bullet$ & 0.50 & $\bullet$ & 0.50 & $\bullet$ & 0.66 &           & 0.66 &           & 0.66 &           & 0.66 &           & 0.66 &          \\
+InattentiveFeatures-TempOnly-30s & 0.60 & 0.60 &          & 0.62 &          & 0.62 &          & 0.59 &          & 0.60 &          & 0.60 &          & 0.53 &           & 0.55 &           & 0.54 &           & 0.54 &           & 0.54 &           & 0.54 &           & 0.58 &           & 0.58 &           & 0.60 &           & 0.60 &           & 0.60 &          \\
+\hline
+\multicolumn{36}{c}{$\circ$, $\bullet$ statistically significant improvement or degradation}\\
+\end{tabular} \footnotesize \par}
+\end{table}
+
+
+\begin{table}[thb]
+\caption{\label{labelname}Table Caption (Key)}
+\scriptsize
+{\centering
+\begin{tabular}{cl}\\
+(1) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 4727\textbackslash" -S 1 -W trees.RandomForest -- -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 6625' -4523450618538717400 \\
+(2) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 4727\textbackslash" -S 1 -W trees.RandomForest -- -P 100 -I 100 -num-slots 1 -K 4 -M 1.0 -V 0.001 -S 6625' -4523450618538717400 \\
+(3) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 4727\textbackslash" -S 1 -W trees.RandomForest -- -P 100 -I 100 -num-slots 1 -K 8 -M 1.0 -V 0.001 -S 6625' -4523450618538717400 \\
+(4) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 4727\textbackslash" -S 1 -W trees.RandomForest -- -P 100 -I 100 -num-slots 1 -K 16 -M 1.0 -V 0.001 -S 6625' -4523450618538717400 \\
+(5) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 4727\textbackslash" -S 1 -W trees.RandomForest -- -P 100 -I 50 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 6625' -4523450618538717400 \\
+(6) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 4727\textbackslash" -S 1 -W trees.RandomForest -- -P 100 -I 150 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 6625' -4523450618538717400 \\
+(7) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 4727\textbackslash" -S 1 -W trees.RandomForest -- -P 100 -I 200 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 6625' -4523450618538717400 \\
+(8) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 4596\textbackslash" -S 1 -W trees.DecisionStump' -4523450618538717400 \\
+(9) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 6678\textbackslash" -S 1 -W trees.J48 -- -C 0.1 -M 2' -4523450618538717400 \\
+(10) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 6678\textbackslash" -S 1 -W trees.J48 -- -C 0.2 -M 2' -4523450618538717400 \\
+(11) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 6678\textbackslash" -S 1 -W trees.J48 -- -C 0.3 -M 2' -4523450618538717400 \\
+(12) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 6678\textbackslash" -S 1 -W trees.J48 -- -C 0.4 -M 2' -4523450618538717400 \\
+(13) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 6678\textbackslash" -S 1 -W trees.J48 -- -C 0.5 -M 2' -4523450618538717400 \\
+(14) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 9645\textbackslash" -S 1 -W trees.RandomTree -- -K 0 -M 1.0 -V 0.001 -S 1746' -4523450618538717400 \\
+(15) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 9645\textbackslash" -S 1 -W trees.RandomTree -- -K 4 -M 1.0 -V 0.001 -S 1746' -4523450618538717400 \\
+(16) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 9645\textbackslash" -S 1 -W trees.RandomTree -- -K 8 -M 1.0 -V 0.001 -S 1746' -4523450618538717400 \\
+(17) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 9645\textbackslash" -S 1 -W trees.RandomTree -- -K 16 -M 1.0 -V 0.001 -S 1746' -4523450618538717400 \\
+(18) & meta.FilteredClassifier '-F \textbackslash"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 9645\textbackslash" -S 1 -W trees.RandomTree -- -K 32 -M 1.0 -V 0.001 -S 1746' -4523450618538717400 \\
+\end{tabular}
+}
+\end{table}
+
